@@ -1,0 +1,154 @@
+nav > ul > li {
+    list-style: none;
+}
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+}
+.main {
+    background-image: url(./images/blue-surface-with-study-tools.jpg);
+    background-size: cover;
+}
+nav > ul {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    align-items: center;
+    margin: 0;
+    padding: 0 20vh 0 0;
+}
+* {
+    font-family: Poppins, sans-serif;
+    color: rgb(42, 39, 39);
+}
+.hero {
+    height: 100vh;
+    display: flex;
+    
+    justify-content: end;
+    align-items: center;
+    padding-right: 20vh;
+}
+body {
+    margin: 0;
+}
+h3 , h1 {
+    margin: 0;
+    
+}
+h1 {
+    font-size: 50px;
+}
+.profile {
+    height: 100vh; 
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile > img {
+    border-radius: 50%;
+}
+.skills {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.skills-div {
+    max-width: 700px;
+}
+.skills > div > img {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    
+}
+.skills > div {
+    margin: 0 300px;
+}
+.skills > h2 {
+    font-size: 50px;
+}
+.contact {
+    height: 80vh;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+button#contactme {
+    padding: 10px;
+    border: none;
+    color:black;
+    background-color: #E0F4FF;
+    border-radius: 20px;
+    min-width: 100px;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+button#facebook {
+    padding: 10px;
+    border: none;
+    color:black;
+    background-color: #E0F4FF;
+    border-radius: 20px;
+    min-width: 100px;
+}
+button#linkedin {
+    padding: 10px;
+    border: none;
+    color:black;
+    background-color: #E0F4FF;
+    border-radius: 20px;
+    min-width: 100px;
+}
+button > a {
+    text-decoration: none;
+}
+#contact-title {
+    font-size: 45px;
+}
+
+#description {
+    padding-bottom: 20px;
+}
+#resume {
+    padding: 10px;
+
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
+@media (max-width: 900px) {
+    nav {
+        justify-content: center;
+    }
+    .hero {
+        justify-content: center;
+        padding-right:0;
+        text-align: center;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    nav > ul
+     {
+        padding: 0 0 0 0;
+     }
+     .contact {
+        margin-top: 50px;
+     }
+     .contact > p {
+        margin-top: 150px;
+    }
+    .skills > h2 {
+        margin-top: 150px;
+    }
+}
